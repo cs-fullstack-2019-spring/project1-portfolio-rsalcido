@@ -1,0 +1,17 @@
+body h1{
+    color: grey;
+    text-transform: uppercase;
+
+}
+
+#changecolor1{
+    color: #721c24;
+
+}
+#changecolor2 {
+    color: #721c24;
+
+}
+#Intro{
+    font-size: 35px ;
+}
