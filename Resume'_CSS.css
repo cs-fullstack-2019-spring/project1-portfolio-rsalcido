@@ -15,3 +15,9 @@ body h1{
 #Intro{
     font-size: 35px ;
 }
+
+body {
+    background: url("drops-of-water-578897.jpg") no-repeat;
+    width: 30%;
+    height: 30%;
+}

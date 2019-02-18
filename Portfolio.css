@@ -1,0 +1,125 @@
+/*css for the carousel */
+body
+{
+    background: url("binary-3175073.jpg");
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container
+{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.swiper-slide
+{
+    background-position: center;
+    background-size: cover;
+    width: 380px;
+    height: 380px;
+    background: #fff;
+}
+.swiper-slide .imgBx{
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+.swiper-slide .imgBx iframe
+{
+    width: 100%;
+
+}
+
+.swiper-slide .details {
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+
+.swiper-slide .details h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+
+}
+.swiper-slide .details h3 span{
+    font-size: 16px;
+    color: #f44336;
+
+}
+.swiper-pagination
+{
+    alignment-baseline: center;
+    background-color: red;
+}
+
+
+.navigaton
+{
+    margin:0;
+    background: #222;
+    font-family: "work Sans", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+
+    width:70%;
+    margin: 0 auto;
+
+}
+
+header{
+
+    background: #55d6aa;
+
+}
+
+header::after{
+
+    content: "";
+
+    display:table;
+
+    clear: both;
+
+}
+
+
+/*nav setting*/
+nav{
+
+    text-align: center;
+
+
+}
+/*inner nav */
+nav ul{
+
+    margin:0;
+    padding:0;
+    list-style: none;
+
+}
+/*nav li's'*/
+nav li {
+    display: inline-block;
+    margin-left:  75px;
+    padding-top: 23px;
+}
+nav a {
+
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.brand{
+    text-align: center;
+}
